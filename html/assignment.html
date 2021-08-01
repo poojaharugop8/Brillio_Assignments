@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register here</h1>
+
+    <form action="">
+        <legend>Information Required
+        <label for="fname">FirstName:</label>
+        <input type="text"  id="fname"><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lanme"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city"><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="pass">Create Password :</label>
+        <input type="password" name="pass" id="pass"><br>
+        <label for="number">Phone number</label>
+        <input type="tel" name="number" id="number"><br>
+        <!--<textarea  id="about" cols="5" rows="10"></textarea><br>-->
+        <label for="gender">Gender:</label>
+        <label for="gender">Female</label>
+        <input type="checkbox" id="gender">
+        <label for="gender">Male</label>
+        <input type="checkbox" id="gender"><br>
+
+        <label for="course">Department:</label>
+        <select name="course" id="course" size="4">
+            <option value="SE">Software Engineer</option>
+            <option value="QA">Quality Assurance</option>
+            <option value="HR">Human Resourses</option>
+            <option value="LD">Learning and development</option>
+            <option value="IT">Information technology</option>
+            <option value="FT">Finance Team</option>
+        </select><br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br>
+        
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date"><br>
+
+        <label for="timr">Time of Birth:</label>
+        <input type="time" id="time" name="time"><br>
+
+        <label for="myfile">Photograph:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+        <label for="url">URL of Your Github Account:</label>
+        <input type="url" name="url" id="url"><br>
+
+        <input type="submit" value="Submit" onclick="alert('Sumitted Successfully')"> 
+        <button type="button">Cancel</button><br>
+    </legend>
+    </form>
+
+</body>
+</html>
