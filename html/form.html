@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+
+        input[type="radio"]+label:first-of-type {
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+
+        input[type="radio"]+label:last-of-type {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+
+        div {
+            align-content: center;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .image {
+            background: url(image/light.jpg) no-repeat center;
+            background-size: cover;
+            height: 500px;
+            position: relative;
+        }
+
+        fieldset {
+            background-color: lightblue;
+            width: fit-content;
+            align-items: center;
+        }
+
+        label {
+            width: 240px;
+            display: inline;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="image">
+        <div>
+            <fieldset>
+                <form action="">
+                    <h1><b>Registration Form</b></h1>
+                    <label for="fname">FirstName:</label>
+                    <input type="text" id="fname"><br><br>
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" id="manme"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname"><br><br>
+                    <label for="course">Course:</label>
+                    <select name="course" id="course">
+                        <option value="Courses"></option>
+                        <option value="c">C</option>
+                        <option value="c++">C++</option>
+                        <option value="java">Java</option>
+                        <option value="cuda">CUDA</option>
+                    </select><br><br>
+                    <label for='gender'>Gender:</label><br>
+                    <input type="radio" id="gender">
+                    <label for="gender">Female</label><br>
+                    <input type="radio" id="female">
+                    <label for="gender">Male</label><br>
+                    <input type="radio" id="male">
+                    <label for="gender">Other</label><br><br>
+
+
+                    <label for="phone">Phone: </label>
+                    <input type="text" name="phone" id="phone" value="+91" size="4">
+                    <input type="tel" name="phone" id="phone"><br><br>
+
+                    <label for="address">Address:</label><br>
+                    <textarea id="about" cols="50" rows="10"></textarea><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"><br><br>
+
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass"><br><br>
+
+                    <label for="repass">Re-type Password:</label>
+                    <input type="password" name="repass" id="repass"><br><br>
+
+
+                    <button type="submit" value="submit" onclick="alert('Successfully Submitted')"">Submit</button>   
+                    <button type=" cancel" value="cancel" style="background-color: red;">Cancel</button>
+
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
