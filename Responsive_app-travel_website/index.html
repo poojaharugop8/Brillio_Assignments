@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Css files-->
+    <link rel="stylesheet" href="bootstrap/css/font-awesone.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+
+    <title sty>News-Website</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container"><br>
+        <a href="#" class="navbar-brand d-inline">News-Website</a>
+
+        <button
+          class="navbar-toggle"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon bg-dark"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#bollywood" class="nav-link">Bollywood</a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a href="#crime" class="nav-link">Crime</a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>&nbsp;&nbsp;
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="carousel.js"></script>
+
+    <!-- Showcase -->
+    <div class="container">
+      <h1><b>Latest News</b></h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              src="https://static.toiimg.com/thumb/msid-84974042,imgsize-678367,width-400,resizemode-4/84974042.jpg"
+              alt="Los Angeles"
+              style="width: 100%"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>
+                India, China to resolve remaining LAC issues in 'expeditious
+                manner'
+              </h1>
+              <p><b>
+                NEW DELHI: India and China had a candid and in-depth exchange of
+                views during military-level talks over the disengagement in the
+                friction areas along te Line of Actual Control(LAC), a joint
+                press statement.</b>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Chicago"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="item">
+            <img
+              src="https://imgk.timesnownews.com/story/covidmanipurpti_2.jpg?tr=w-600,h-450,fo-auto"
+              alt="New york"
+              style="width: 100%"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>
+                Third COVID wave likely to hit India this month, may reach its
+                peak in October: Report
+              </h1>
+              <p><b>
+                New Delhi: The anticipated third wave of the COVID-19 pandemic
+                is likely to hit India in August which may reach its peak in
+                October when the country is expected to report less than
+                1,00,000 infections daily in the best-case scenario or nearly
+                1,50,000 in the pessimistic scenario, according to a study.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <!-- bollywood Sections -->
+    <section id="#bollywood" class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Bollywood News</h2><br>
+        </div>
+      
+
+
+    <!-- cards for bollywood -->
+    <div class="row container-lg">
+      <div class="col-3">
+      <!-- first card -->
+      <div class="card h-200" style="width: 18rem">
+        <img
+          src="https://media2.bollywoodhungama.in/wp-content/uploads/2021/08/Janhvi-Kapoor-revealed-her-relationship-with-her-stepbrother-Arjun-Kapoor-Thats-what-family-is-1.jpg"
+          class="card-img-top"
+          alt=""
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Janhvi Kapoor revealed her relationship with her stepbrother Arjun
+            Kapoor: ‘That’s what family is’
+          </h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+          <a href="https://www.bollywoodhungama.com/news/features/janhvi-kapoor-revealed-relationship-stepbrother-arjun-kapoor-thats-family/" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+      <!-- second card -->
+      <div class="col-3">
+      <div class="card h-200" style="width: 18rem">
+        <img
+          src="https://media2.bollywoodhungama.in/wp-content/uploads/2021/08/Rajkumar-Hirani%E2%80%99s-next-to-be-co-produced-along-with-Shah-Rukh-Khan%E2%80%99s-Red-Chillies-Entertainment-2.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Rajkumar Hirani’s next to be co-produced along with Shah Rukh Khan’s Red Chillies Entertainment
+          </h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          </p>
+          <a href="https://www.bollywoodhungama.com/news/bollywood/rajkumar-hiranis-next-co-produced-along-shah-rukh-khans-red-chillies-entertainment/" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- Third card -->
+      <div class="col-3">
+        <div class="card h-200" style="width: 18rem">
+          <img
+            src="https://images.news18.com/ibnlive/uploads/2021/08/1627922489_shilpa-shetty-4-1200x800.jpg?impolicy=website&width=510&height=356"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Bollywood Rallies Behind Shilpa Shetty as She Breaks Silence on Raj Kundra Case, Requests for Privacy 
+            </h5>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <a href="https://www.news18.com/news/movies/bollywood-rallies-behind-shilpa-shetty-as-she-breaks-silence-on-raj-kundra-case-requests-for-privacy-4037855.html" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+
+        <!-- Forth card -->
+      <div class="col-3">
+        <div class="card h-200" style="width: 18rem">
+          <img
+            src="https://media2.bollywoodhungama.in/wp-content/uploads/2021/07/Deepika-Padukone-dedicates-almost-2-hours-for-intense-training-for-Shah-Rukh-Khan-starrer-Pathan.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Deepika Padukone dedicates almost 2 hours for intense training for Shah Rukh Khan starrer Pathan
+            </h5>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </p>
+            <a href="https://www.news18.com/news/movies/bollywood-rallies-behind-shilpa-shetty-as-she-breaks-silence-on-raj-kundra-case-requests-for-privacy-4037855.html" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      </div>
+      <br><br>
+      </section>
+
+      <!-- Crime section -->
+
+    <section id="#crime" class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Crime News</h2><br>
+        </div>
+      
+
+
+    <!-- cards for crime -->
+    <div class="row container-lg">
+      <div class="col-3">
+      <!-- first card -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/arrested_rep._1200x768.jpeg?vxaMkMLnOdaMPPnFaKqaJsxukC4u9s3u&size=770:433"
+          alt=""
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Movie producer held for duping Delhi businessman of Rs 32 lakh
+          </h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+          <a href="https://www.indiatoday.in/crime/story/movie-producer-arrested-duping-delhi-businessman-loan-1835665-2021-08-02" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+      <!-- second card -->
+      <div class="col-3">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/illegalaarms_1200x768.jpeg?S2MR75T8lBLn4ZNsSo5Lu4GZBH4GlkIe&size=770:433"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Kolkata Police arrests man for illegally selling arms on social media
+          </h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          </p>
+          <a href="https://www.indiatoday.in/cities/kolkata/story/kolkata-police-arrests-illegally-selling-arms-social-media-1835413-2021-08-01" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- Third card -->
+      <div class="col-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202107/crime_0_1200x768.jpeg?uhyap9chKYAC5rrcyFgwmfW68rVjUV3C&size=770:433"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              US woman kills 2 children, drives for months with bodies stuffed in car
+            </h5>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <a href="https://www.indiatoday.in/crime/story/woman-drives-for-months-in-us-with-bodies-of-2-children-in-car-1834982-2021-07-31" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+
+        <!-- Forth card -->
+      <div class="col-3">
+        <div class="card h-200" style="width: 18rem">
+          <img
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202107/stabbing_1200x768.jpeg?0k7qdJBjcViDcYJy_wyg_rICoCAYq8OA&size=770:433"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Telangana man kills 2-year-old son, stabs wife on her birthday
+            </h5>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </p>
+            <a href="https://www.indiatoday.in/crime/story/telangana-man-kills-2-year-old-son-stabs-wife-on-her-birthday-1827848-2021-07-14" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </section>
+
+      
+      <!-- Education section -->
+
+    <section id="#education" class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Education News</h2><br>
+        </div>
+      
+
+
+    <!-- cards for education -->
+    <div class="row container-lg">
+      <div class="col-3">
+      <!-- first card -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.indianexpress.com/2021/06/cbse-result-board-exam.jpg"
+          alt=""
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            CBSE Class 10th results: 2.76% score above 95%, spike in govt schools pass percentage
+          </h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
+          <a href="https://indianexpress.com/article/education/cbse-class-10th-results-over-57k-student-score-95-and-above-kendriya-vidyalaya-schools-register-100-umang-cbseresults-nic-in-7352609/" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+      <!-- second card -->
+      <div class="col-3">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.indianexpress.com/2021/08/online-class.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Over 2.96 crore school students without digital device, Bihar reports highest number: Centre
+          </h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          </p>
+          <a href="https://indianexpress.com/article/education/school-students-without-digital-device-online-classes-bihar-highest-number-govt-7435944/" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- Third card -->
+      <div class="col-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.indianexpress.com/2021/08/punjab-schools-1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Classrooms come alive again in Punjab but Covid norms go for a toss
+            </h5>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <a href="https://indianexpress.com/article/education/punjab-schools-open-little-room-to-follow-covid-rules-7435471/" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+
+        <!-- Forth card -->
+      <div class="col-3">
+        <div class="card h-200" style="width: 18rem">
+          <img
+            src="https://images.indianexpress.com/2021/03/IIT-M-1200-4.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              IIT-Madras launches consortium for virtual reality
+            </h5>
+            <p class="card-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </p>
+            <a href="https://indianexpress.com/article/education/iit-madras-launches-consortium-for-virtual-reality-7434638/" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      </section>
+
+
+      <section id="#contact" class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Contact Me!</h2><br>
+        </div>
+          <div class="container mt-5">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="firstName" class="form-label">
+                  First Name:
+                </label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+              <div class="col-md-6">
+                <label for="lastName" class="form-label">
+                  Last Name:
+                </label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+              <div class="col-md-8">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control "name="" id="email" required>
+              </div>
+              <div class="col-md-4">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control"name="" id="phoneNumber" placeholder="+91">
+              </div>
+              <div class="col-md-12">
+                <label for="comments" class="form-label">Comments, Feedbacks?</label>
+                <textarea class="form-control" id="comments" rows="3"></textarea>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+              <br><br><br><br><br><br>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            >
+            <img src="https://image.flaticon.com/icons/png/512/124/124010.png" alt="" width="20" height="20">
+          </a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            >
+            <img src="https://image.flaticon.com/icons/png/512/124/124021.png" alt="" width="20" height="20"></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            >
+            <img src="https://img-authors.flaticon.com/google.jpg" alt="" width="20" height="20"></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            >
+            <img src="https://i.pinimg.com/originals/c8/95/2d/c8952d6e421a83d298a219edee783167.jpg" alt="" width="20" height="20"></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            >
+            <img src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" width="20" height="20"></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            >
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" width="20" height="20"></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright
+          <a class="text-white" href="#"></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

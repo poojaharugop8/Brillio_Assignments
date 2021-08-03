@@ -1,0 +1,27 @@
+.carousel .item {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 800px;
+  }
+  html{
+    scroll-behavior: smooth;;
+  }
+
+  .navbar-brand
+  {
+    font-family: 'Lato', sans-serif;
+    color:grey;
+    font-size: 40px;
+    margin: 0px;
+  }
+  .navbar-collapse{
+      font-size: 20px;
+  }
+ 
